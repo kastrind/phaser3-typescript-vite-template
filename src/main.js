@@ -1,7 +1,6 @@
-import Phaser from 'phaser'
-
-import HelloWorldScene from './HelloWorldScene'
-import GameScene from './GameScene'
+import Phaser from 'phaser';
+//import HelloWorldScene from './HelloWorldScene';
+import GameScene from './GameScene';
 
 const config = {
 	type: Phaser.AUTO,
@@ -15,6 +14,6 @@ const config = {
 		},
 	},
 	scene: [GameScene],
-}
+};
 
-export default new Phaser.Game(config)
+export default new Phaser.Game(config);
